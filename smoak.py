@@ -76,9 +76,124 @@ while True:
             print("You follow the path as it winds to the west. As you continue along the path, you notice it begins to incline upward.")
             pos = 102
             continue
-    if pos == 101:
+    if pos == 102:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+    if pos == 103:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+    if pos == 104:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+    if pos == 105:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
 
-        continue
+    if pos == 106:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+
+    if pos == 107:
+        if do == 'l':
+            print("This room has not been written yet!")
+        if do == 'n':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 's' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'e' :
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+        if do == 'w':
+            print("This room has not been written yet!")
+#            pos = 000
+            continue
+
+
     else:
         print('Command not recognized!')
         continue
