@@ -80,7 +80,7 @@ while True:
 
         continue
     else:
-        print('Command not recognized.')
+        print('Command not recognized!')
         continue
 
 
