@@ -19,7 +19,7 @@ pcliff2 = "The face of the rock is too steep to attempt to climb."
 p100 = "CLEARING\nYou're on the south side of a clearing. The sky is overcast, but bright. It seems to be the middle of the day. The trees that surround you are tall, ancient oak trees, and there is a much younger-looking birch tree in the middle of the clearing. Next to it, you can see what appears to be a concrete box with a metal door bearing an inscription."
 p100_01 = "As you investigate the box, you realize it is retrofitted with a number pad. The inscription has no text, but contains three symbols. The first appears to be a tulip, the second, waves of water, and the third, the tip of a fountain pen. Under each symbol is a pair of zeroes."
 
-p101 = "FOOTPATH\nYou are at the end of a small footpath. The path leads uphill to the west. To the east, there is a small clearing with a birch tree and a concrete box in the center."
+p101 = "FOOTPATH\nYou are at the end of a small footpath. The path leads uphill to the west. To the east, there is a small clearing with a birch tree and a concrete box in the center. There also appears to be a break in the trees to your north."
 
 p102 = "HILLTOP\nYou have reached the top of a hill. You can see a river to the north, and a path leading east. There is a cliff face to the west. There is a picnic table here, with a tall grey cylinder in the center."
 p102_01 = "As you approach the table, you realize that the cylinder is hollow and made of concrete. There is an inscription on the side."
@@ -116,7 +116,8 @@ while True:
         if do == 'l':
             print(p101)
         if do == 'n':
-            print(ptrees1,"north.",ptrees2)
+            print(p107)
+            pos = 107
             continue
         if do == 's' :
             print(ptrees1,"south.",ptrees2)
@@ -219,20 +220,20 @@ while True:
         if do == 'l':
             print(p105)
         if do == 'n':
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p106)
+            pos = 106
             continue
         if do == 's' :
-            print("This room has not been written yet!")
+            print(ptrees1,"south.",ptrees2)
 #            pos = 100
             continue
         if do == 'e' :
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p107)
+            pos = 107
             continue
         if do == 'w':
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p103)
+            pos = 103
             continue
 ##########
 #falls
@@ -240,19 +241,19 @@ while True:
         if do == 'l':
             print(p106)
         if do == 'n':
-            print("This room has not been written yet!")
+            print("You can't go north, you'll fall over the cliff!")
 #            pos = 100
             continue
         if do == 's' :
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p105)
+            pos = 105
             continue
         if do == 'e' :
-            print("This room has not been written yet!")
-#            pos = 100
+            print("You follow the path to the east and it begins to curve to the right until you find yourself walking south.",p107)
+            pos = 107
             continue
         if do == 'w':
-            print("This room has not been written yet!")
+            print("The river is to your west. You'll drown, dumbass.")
 #            pos = 100
             continue
 ##########
@@ -261,20 +262,20 @@ while True:
         if do == 'l':
             print(p107)
         if do == 'n':
-            print("This room has not been written yet!")
+            print("You follow the path to the north and it begins to curve to the left until you find yourself walking west.",p106)
 #            pos = 100
             continue
         if do == 's' :
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p101)
+            pos = 101
             continue
         if do == 'e' :
-            print("This room has not been written yet!")
+            print(ptrees1,"east.",ptrees2)
 #            pos = 100
             continue
         if do == 'w':
-            print("This room has not been written yet!")
-#            pos = 100
+            print(p105)
+            pos = 105
             continue
 
 ##########
